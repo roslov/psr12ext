@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="PSR12Ext">
+    <description>PSR-12 Extended Coding Standard</description>
+
+    <rule ref="PSR12">
+        <!-- CASE keyword must be indented 4 spaces from SWITCH keyword. -->
+        <exclude name="PSR2.ControlStructures.SwitchDeclaration"/>
+    </rule>
+
+    <!-- Disallows long array syntax -->
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
+
+    <!-- If string doesn’t contain variables or single quotes, use single quotes -->
+    <rule ref="Squiz.Strings.DoubleQuoteUsage.NotRequired"/>
+
+    <!-- Requires single spaces on concatenation -->
+    <rule ref="Squiz.Strings.ConcatenationSpacing">
+        <properties>
+            <property name="spacing" value="1" />
+            <property name="ignoreNewlines" value="true" />
+        </properties>
+    </rule>
+
+    <!-- https://github.com/squizlabs/PHP_CodeSniffer/issues/1008 -->
+    <rule ref="Squiz.ControlStructures.ControlSignature">
+        <properties>
+            <property name="requiredSpacesBeforeColon" value="0" />
+        </properties>
+    </rule>
+
+    <!-- Ignore declare new symbols and execute logic with side effects same file -->
+    <rule ref="PSR1.Files.SideEffects.FoundWithSymbols">
+        <exclude-pattern>/web/*</exclude-pattern>
+    </rule>
+</ruleset>
