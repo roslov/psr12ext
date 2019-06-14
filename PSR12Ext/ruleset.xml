@@ -4,14 +4,14 @@
 
     <rule ref="PSR12">
         <!-- CASE keyword must be indented 4 spaces from SWITCH keyword. -->
-        <exclude name="PSR2.ControlStructures.SwitchDeclaration"/>
+        <exclude name="PSR2.ControlStructures.SwitchDeclaration" />
     </rule>
 
     <!-- Disallows long array syntax -->
-    <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
 
     <!-- If string doesn’t contain variables or single quotes, use single quotes -->
-    <rule ref="Squiz.Strings.DoubleQuoteUsage.NotRequired"/>
+    <rule ref="Squiz.Strings.DoubleQuoteUsage.NotRequired" />
 
     <!-- Requires single spaces on concatenation -->
     <rule ref="Squiz.Strings.ConcatenationSpacing">
@@ -27,6 +27,9 @@
             <property name="requiredSpacesBeforeColon" value="0" />
         </properties>
     </rule>
+
+    <!-- Disallows trailing spaces -->
+    <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine" />
 
     <!-- Ignore declare new symbols and execute logic with side effects same file -->
     <rule ref="PSR1.Files.SideEffects.FoundWithSymbols">
