@@ -3,7 +3,7 @@
     <description>PSR-12 Extended Coding Standard</description>
 
     <!-- Base standards -->
-    <config name="installed_paths" value="./../../../vendor/slevomat/coding-standard" />
+    <config name="installed_paths" value="./../../slevomat/coding-standard" />
 
     <!-- PSR-12 standard -->
     <rule ref="PSR12">
