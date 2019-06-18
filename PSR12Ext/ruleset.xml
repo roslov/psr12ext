@@ -29,7 +29,11 @@
     </rule>
 
     <!-- Disallows trailing spaces -->
-    <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine" />
+    <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace">
+        <properties>
+            <property name="ignoreBlankLines" value="false" />
+        </properties>
+    </rule>
 
     <!-- Ignore declare new symbols and execute logic with side effects same file -->
     <rule ref="PSR1.Files.SideEffects.FoundWithSymbols">
