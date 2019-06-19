@@ -9,6 +9,8 @@
     <rule ref="PSR12">
         <!-- CASE keyword must be indented 4 spaces from SWITCH keyword. -->
         <exclude name="PSR2.ControlStructures.SwitchDeclaration" />
+        <!-- Ignores missing parentheses in class instantination -->
+        <exclude name="PSR12.Classes.ClassInstantiation.MissingParentheses" />
     </rule>
 
     <!-- Disallows long array syntax -->
@@ -70,6 +72,8 @@
         <properties>
             <property name="searchAnnotations" value="true" />
         </properties>
+        <!-- Excludes unused uses check as it is not working correctly -->
+        <exclude name="SlevomatCodingStandard.Namespaces.UnusedUses.UnusedUse" />
     </rule>
     <rule ref="SlevomatCodingStandard.Namespaces.UselessAlias" />
     <rule ref="SlevomatCodingStandard.PHP.UselessParentheses" />
@@ -94,7 +98,10 @@
     <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses" />
     <rule ref="SlevomatCodingStandard.Namespaces.RequireOneNamespaceInFile" />
     <rule ref="SlevomatCodingStandard.Namespaces.NamespaceDeclaration" />
-    <rule ref="SlevomatCodingStandard.Namespaces.NamespaceSpacing" />
+    <rule ref="SlevomatCodingStandard.Namespaces.NamespaceSpacing">
+        <!-- Excludes line count check before namespace as it is not working correctly -->
+        <exclude name="SlevomatCodingStandard.Namespaces.NamespaceSpacing.IncorrectLinesCountBeforeNamespace" />
+    </rule>
     <rule ref="SlevomatCodingStandard.Namespaces.UseSpacing" />
     <rule ref="SlevomatCodingStandard.Operators.SpreadOperatorSpacing" />
     <rule ref="SlevomatCodingStandard.TypeHints.LongTypeHints" />
