@@ -41,6 +41,9 @@
         </properties>
     </rule>
 
+    <!-- Checks the spacing after a type cast -->
+    <rule ref="Generic.Formatting.SpaceAfterCast" />
+
     <!-- Rules from Slevomat Coding Standard -->
     <!-- Functional — improving the safety and behaviour of code -->
     <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration" />
