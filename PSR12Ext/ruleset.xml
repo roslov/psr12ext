@@ -6,12 +6,7 @@
     <config name="installed_paths" value="./../../slevomat/coding-standard" />
 
     <!-- PSR-12 standard -->
-    <rule ref="PSR12">
-        <!-- CASE keyword must be indented 4 spaces from SWITCH keyword. -->
-        <exclude name="PSR2.ControlStructures.SwitchDeclaration" />
-        <!-- Ignores missing parentheses in class instantination -->
-        <exclude name="PSR12.Classes.ClassInstantiation.MissingParentheses" />
-    </rule>
+    <rule ref="PSR12" />
 
     <!-- Disallows long array syntax -->
     <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
@@ -46,7 +41,9 @@
 
     <!-- Rules from Slevomat Coding Standard -->
     <!-- Functional — improving the safety and behaviour of code -->
-    <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration" />
+    <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHint" />
+    <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint" />
+    <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHint" />
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes" />
     <rule ref="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint" />
     <rule ref="SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly" />
@@ -57,6 +54,7 @@
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireNullCoalesceOperator" />
     <rule ref="SlevomatCodingStandard.Functions.StaticClosure" />
     <rule ref="SlevomatCodingStandard.Operators.RequireCombinedAssignmentOperator" />
+    <rule ref="SlevomatCodingStandard.Commenting.UselessFunctionDocComment" />
     <!-- Cleaning — detecting dead code -->
     <rule ref="SlevomatCodingStandard.Classes.UnusedPrivateElements">
         <properties>
