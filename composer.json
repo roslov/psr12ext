@@ -15,8 +15,8 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "squizlabs/php_codesniffer": "^3.4",
-        "slevomat/coding-standard": "^5.0.4"
+        "squizlabs/php_codesniffer": "^3.5.4",
+        "slevomat/coding-standard": "^6.1.5"
     },
     "support": {
         "source": "https://github.com/roslov/psr12ext"
