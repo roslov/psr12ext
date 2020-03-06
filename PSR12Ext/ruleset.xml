@@ -44,7 +44,13 @@
     <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHint" />
     <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint" />
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHint" />
-    <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes" />
+    <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
+        <properties>
+            <property name="newlinesCountBetweenOpenTagAndDeclare" value="2" />
+            <property name="newlinesCountAfterDeclare" value="2" />
+            <property name="spacesCountAroundEqualsSign" value="0" />
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint" />
     <rule ref="SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly" />
     <rule ref="SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation" />
@@ -95,7 +101,6 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.ControlStructures.LanguageConstructWithParentheses" />
-    <rule ref="SlevomatCodingStandard.ControlStructures.NewWithoutParentheses" />
     <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses" />
     <rule ref="SlevomatCodingStandard.Namespaces.RequireOneNamespaceInFile" />
     <rule ref="SlevomatCodingStandard.Namespaces.NamespaceDeclaration" />

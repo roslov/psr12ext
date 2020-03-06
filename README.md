@@ -80,7 +80,6 @@ Below you can find only the name of the rules:
 * SlevomatCodingStandard.Commenting.UselessFunctionDocComment
 * SlevomatCodingStandard.ControlStructures.DisallowContinueWithoutIntegerOperandInSwitch
 * SlevomatCodingStandard.ControlStructures.LanguageConstructWithParentheses
-* SlevomatCodingStandard.ControlStructures.NewWithoutParentheses
 * SlevomatCodingStandard.ControlStructures.RequireNullCoalesceOperator
 * SlevomatCodingStandard.ControlStructures.UselessIfConditionWithReturn
 * SlevomatCodingStandard.ControlStructures.UselessTernaryOperator
