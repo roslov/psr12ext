@@ -121,3 +121,23 @@ Below you can find only the name of the rules:
 * Squiz.Strings.ConcatenationSpacing
 * Squiz.Strings.DoubleQuoteUsage.NotRequired
 * Squiz.WhiteSpace.SuperfluousWhitespace
+
+
+Versioning
+----------
+
+PSR-12 Extended Coding Standard uses a `MAJOR.MINOR.PATCH` version number format.
+
+The `MAJOR` version is incremented when:
+- the major version of Slevomat Coding Standard is changed, or
+- the major version of PHP_CodeSniffer is changed, or
+- backwards-incompatible changes are made to the `ruleset.xml` format, or
+- existing sniffs are removed from PSR-12 Extended Coding Standard entirely.
+
+The `MINOR` version is incremented when:
+- backwards-compatible changes are made to the `ruleset.xml` format, or
+- new sniffs are added to an included standard, or
+- existing sniffs are removed from an included standard.
+
+The `PATCH` version is incremented when:
+- backwards-compatible bug fixes are made.
