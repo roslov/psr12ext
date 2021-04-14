@@ -72,7 +72,6 @@ Below you can find only the name of the rules:
 * SlevomatCodingStandard.Classes.ModernClassNameReference
 * SlevomatCodingStandard.Classes.TraitUseDeclaration
 * SlevomatCodingStandard.Classes.TraitUseSpacing
-* SlevomatCodingStandard.Classes.UnusedPrivateElements
 * SlevomatCodingStandard.Classes.UselessLateStaticBinding
 * SlevomatCodingStandard.Commenting.DocCommentSpacing
 * SlevomatCodingStandard.Commenting.EmptyComment

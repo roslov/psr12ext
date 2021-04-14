@@ -46,8 +46,8 @@
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHint" />
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
-            <property name="newlinesCountBetweenOpenTagAndDeclare" value="2" />
-            <property name="newlinesCountAfterDeclare" value="2" />
+            <property name="linesCountBeforeDeclare" value="1" />
+            <property name="linesCountBeforeDeclare" value="1" />
             <property name="spacesCountAroundEqualsSign" value="0" />
         </properties>
     </rule>
@@ -62,17 +62,6 @@
     <rule ref="SlevomatCodingStandard.Operators.RequireCombinedAssignmentOperator" />
     <rule ref="SlevomatCodingStandard.Commenting.UselessFunctionDocComment" />
     <!-- Cleaning — detecting dead code -->
-    <rule ref="SlevomatCodingStandard.Classes.UnusedPrivateElements">
-        <properties>
-            <property name="alwaysUsedPropertiesAnnotations" type="array" value="
-                @ORM\Column,
-                @ORM\ManyToOne,
-                @ORM\OneToMany,
-                @ORM\ManyToMany,
-                @ORM\JoinColumn,
-            " />
-        </properties>
-    </rule>
     <rule ref="SlevomatCodingStandard.Functions.UnusedInheritedVariablePassedToClosure" />
     <rule ref="SlevomatCodingStandard.Functions.UselessParameterDefaultValue" />
     <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
