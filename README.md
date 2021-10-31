@@ -78,7 +78,6 @@ Below you can find only the name of the rules:
 * SlevomatCodingStandard.Classes.MethodSpacing
 * SlevomatCodingStandard.Classes.ModernClassNameReference
 * SlevomatCodingStandard.Classes.PropertySpacing
-* SlevomatCodingStandard.Classes.TraitUseDeclaration
 * SlevomatCodingStandard.Classes.TraitUseSpacing
 * SlevomatCodingStandard.Classes.UselessLateStaticBinding
 * SlevomatCodingStandard.Commenting.DeprecatedAnnotationDeclaration

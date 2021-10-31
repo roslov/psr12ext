@@ -97,7 +97,6 @@
     <rule ref="SlevomatCodingStandard.Classes.MethodSpacing" />
     <rule ref="SlevomatCodingStandard.Classes.ModernClassNameReference" />
     <rule ref="SlevomatCodingStandard.Classes.PropertySpacing" />
-    <rule ref="SlevomatCodingStandard.Classes.TraitUseDeclaration" />
     <rule ref="SlevomatCodingStandard.Classes.TraitUseSpacing">
         <properties>
             <property name="linesCountBeforeFirstUse" value="0" />
