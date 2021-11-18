@@ -73,8 +73,6 @@
         <properties>
             <property name="searchAnnotations" value="true" />
         </properties>
-        <!-- Excludes unused uses check as it is not working correctly -->
-        <exclude name="SlevomatCodingStandard.Namespaces.UnusedUses.UnusedUse" />
     </rule>
     <rule ref="SlevomatCodingStandard.Namespaces.UselessAlias" />
     <rule ref="SlevomatCodingStandard.PHP.ForbiddenClasses" />
