@@ -149,13 +149,13 @@ The `MAJOR` version is incremented when:
 - the major version of Slevomat Coding Standard is changed, or
 - the major version of PHP_CodeSniffer is changed, or
 - backwards-incompatible changes are made to the `ruleset.xml` format, or
-- new sniffs are enabled in this standard (added to the list).
+- new sniffs are enabled in this standard (added to the list), or
+- existing sniffs are removed from this standard (removed from the list).
 
 The `MINOR` version is incremented when:
 - the minor version of Slevomat Coding Standard is changed, or
 - the minor version of PHP_CodeSniffer is changed, or
-- backwards-compatible changes are made to the `ruleset.xml` format, or
-- existing sniffs are removed from this standard (removed from the list).
+- backwards-compatible changes are made to the `ruleset.xml` format.
 
 The `PATCH` version is incremented when:
 - backwards-compatible bug fixes are made.
