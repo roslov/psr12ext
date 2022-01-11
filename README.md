@@ -13,7 +13,8 @@ Using This Code Style
 After CodeSniffer is installed you can launch it with custom code style using the following syntax:
 
 ```sh
-$ ./vendor/bin/phpcs --extensions=php --standard=PSR12Ext /app
+composer require --dev roslov/psr12ext
+./vendor/bin/phpcs --extensions=php --standard=PSR12Ext /app
 ```
 
 If you are planning to integrate the code quality check with you IDE or CI,
