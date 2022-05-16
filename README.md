@@ -28,8 +28,8 @@ This file can include the list of rule you want to disable as well as your custo
     <description>Local Project Coding Standard</description>
 
     <!-- Excludes vendor and temporary folders -->
-    <exclude-pattern>*/vendor/*</exclude-pattern>
-    <exclude-pattern>*/var/*</exclude-pattern>
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <exclude-pattern>var/*</exclude-pattern>
     <exclude-pattern>tests/_support/*</exclude-pattern>
 
     <!-- Base standards -->
@@ -79,6 +79,7 @@ Below you can find only the name of the rules:
 * SlevomatCodingStandard.Classes.MethodSpacing
 * SlevomatCodingStandard.Classes.ModernClassNameReference
 * SlevomatCodingStandard.Classes.PropertySpacing
+* SlevomatCodingStandard.Classes.RequireAbstractOrFinal
 * SlevomatCodingStandard.Classes.TraitUseSpacing
 * SlevomatCodingStandard.Classes.UselessLateStaticBinding
 * SlevomatCodingStandard.Commenting.DeprecatedAnnotationDeclaration
