@@ -78,6 +78,7 @@ Below you can find only the name of the rules:
 * SlevomatCodingStandard.Classes.DisallowMultiPropertyDefinition
 * SlevomatCodingStandard.Classes.MethodSpacing
 * SlevomatCodingStandard.Classes.ModernClassNameReference
+* SlevomatCodingStandard.Classes.PropertyDeclaration
 * SlevomatCodingStandard.Classes.PropertySpacing
 * SlevomatCodingStandard.Classes.RequireAbstractOrFinal
 * SlevomatCodingStandard.Classes.TraitUseSpacing
@@ -127,7 +128,6 @@ Below you can find only the name of the rules:
 * SlevomatCodingStandard.TypeHints.ParameterTypeHint
 * SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing
 * SlevomatCodingStandard.TypeHints.PropertyTypeHint
-* SlevomatCodingStandard.TypeHints.PropertyTypeHintSpacing
 * SlevomatCodingStandard.TypeHints.ReturnTypeHint
 * SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing
 * SlevomatCodingStandard.TypeHints.UnionTypeHintFormat
