@@ -9,24 +9,24 @@ PSR-12 Extended Coding Standard
 
 This repository extends the [PSR-12 coding style](https://www.php-fig.org/psr/psr-12/).
 
-In addition to PSR-12 this coding style contains also some rules from
+In addition to PSR-12 this coding style also contains some rules from
 the [Slevomat Coding Standard](https://github.com/slevomat/coding-standard).
 
 
 Using This Code Style
 ---------------------
 
-After CodeSniffer is installed you can launch it with custom code style using the following syntax:
+After CodeSniffer is installed, you can launch it with a custom code style using the following syntax:
 
 ```sh
 composer require --dev roslov/psr12ext
 ./vendor/bin/phpcs --extensions=php --standard=PSR12Ext /app
 ```
 
-If you are planning to integrate the code quality check with you IDE or CI,
+If you are planning to integrate the code quality check with your IDE or CI,
 create the file `ruleset.xml` in the project’s root folder.
 
-This file can include the list of rule you want to disable as well as your custom settings. For example:
+This file can include the list of rules you want to disable, as well as your custom settings. For example:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -47,7 +47,7 @@ This file can include the list of rule you want to disable as well as your custo
         <exclude name="Generic.Files.LineEndings" />
         <!-- Disables strict type requirement -->
         <exclude name="SlevomatCodingStandard.TypeHints.DeclareStrictTypes" />
-        <!-- Ignores missing parentheses in class instantination -->
+        <!-- Ignores missing parentheses in class instantiation -->
         <exclude name="PSR12.Classes.ClassInstantiation.MissingParentheses" />
     </rule>
 
@@ -65,7 +65,7 @@ This file can include the list of rule you want to disable as well as your custo
 The List Of Rules Used In This Coding Standard
 ----------------------------------------------
 
-All used rules with their options are describled in [PSR12Ext/ruleset.xml](PSR12Ext/ruleset.xml).
+All used rules with their options are described in [PSR12Ext/ruleset.xml](PSR12Ext/ruleset.xml).
 
 Below you can find only the name of the rules:
 
@@ -156,14 +156,14 @@ PSR-12 Extended Coding Standard uses a `MAJOR.MINOR.PATCH` version number format
 The `MAJOR` version is incremented when:
 - the major version of Slevomat Coding Standard is changed, or
 - the major version of PHP_CodeSniffer is changed, or
-- backwards-incompatible changes are made to the `ruleset.xml` format, or
+- backward-incompatible changes are made to the `ruleset.xml` format, or
 - new sniffs are enabled in this standard (added to the list), or
 - existing sniffs are removed from this standard (removed from the list).
 
 The `MINOR` version is incremented when:
 - the minor version of Slevomat Coding Standard is changed, or
 - the minor version of PHP_CodeSniffer is changed, or
-- backwards-compatible changes are made to the `ruleset.xml` format.
+- backward-compatible changes are made to the `ruleset.xml` format.
 
 The `PATCH` version is incremented when:
-- backwards-compatible bug fixes are made.
+- backward-compatible bug fixes are made.
