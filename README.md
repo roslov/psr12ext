@@ -1,6 +1,12 @@
 PSR-12 Extended Coding Standard
 ===============================
 
+[![Latest Stable Version](http://poser.pugx.org/roslov/psr12ext/v)](https://packagist.org/packages/roslov/psr12ext)
+[![Total Downloads](http://poser.pugx.org/roslov/psr12ext/downloads)](https://packagist.org/packages/roslov/psr12ext)
+[![Latest Unstable Version](http://poser.pugx.org/roslov/psr12ext/v/unstable)](https://packagist.org/packages/roslov/psr12ext)
+[![License](http://poser.pugx.org/roslov/psr12ext/license)](https://packagist.org/packages/roslov/psr12ext)
+[![PHP Version Require](http://poser.pugx.org/roslov/psr12ext/require/php)](https://packagist.org/packages/roslov/psr12ext)
+
 This repository extends the [PSR-12 coding style](https://www.php-fig.org/psr/psr-12/).
 
 In addition to PSR-12 this coding style contains also some rules from
