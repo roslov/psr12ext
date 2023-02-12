@@ -75,7 +75,13 @@ Below you can find only the name of the rules:
 * SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation
 * SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace
 * SlevomatCodingStandard.Arrays.TrailingArrayComma
+* SlevomatCodingStandard.Attributes.AttributeAndTargetSpacing
+* SlevomatCodingStandard.Attributes.DisallowMultipleAttributesPerLine
+* SlevomatCodingStandard.Attributes.DisallowAttributesJoining
+* SlevomatCodingStandard.Attributes.RequireAttributeAfterDocComment
+* SlevomatCodingStandard.Classes.BackedEnumTypeSpacing
 * SlevomatCodingStandard.Classes.ClassConstantVisibility
+* SlevomatCodingStandard.Classes.ClassLength
 * SlevomatCodingStandard.Classes.ClassMemberSpacing
 * SlevomatCodingStandard.Classes.ClassStructure
 * SlevomatCodingStandard.Classes.ConstantSpacing
@@ -95,6 +101,7 @@ Below you can find only the name of the rules:
 * SlevomatCodingStandard.Commenting.EmptyComment
 * SlevomatCodingStandard.Commenting.InlineDocCommentDeclaration
 * SlevomatCodingStandard.Commenting.UselessFunctionDocComment
+* SlevomatCodingStandard.Complexity.Cognitive
 * SlevomatCodingStandard.ControlStructures.DisallowContinueWithoutIntegerOperandInSwitch
 * SlevomatCodingStandard.ControlStructures.LanguageConstructWithParentheses
 * SlevomatCodingStandard.ControlStructures.RequireNullCoalesceEqualOperator
@@ -104,6 +111,7 @@ Below you can find only the name of the rules:
 * SlevomatCodingStandard.Exceptions.DeadCatch
 * SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly
 * SlevomatCodingStandard.Exceptions.RequireNonCapturingCatch
+* SlevomatCodingStandard.Files.FileLength
 * SlevomatCodingStandard.Functions.ArrowFunctionDeclaration
 * SlevomatCodingStandard.Functions.DisallowEmptyFunction
 * SlevomatCodingStandard.Functions.StaticClosure
@@ -124,6 +132,7 @@ Below you can find only the name of the rules:
 * SlevomatCodingStandard.Operators.SpreadOperatorSpacing
 * SlevomatCodingStandard.PHP.ForbiddenClasses
 * SlevomatCodingStandard.PHP.OptimizedFunctionsWithoutUnpacking
+* SlevomatCodingStandard.PHP.RequireExplicitAssertion
 * SlevomatCodingStandard.PHP.ShortList
 * SlevomatCodingStandard.PHP.UselessParentheses
 * SlevomatCodingStandard.PHP.UselessSemicolon
