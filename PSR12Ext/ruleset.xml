@@ -39,6 +39,13 @@
     <!-- Checks the spacing after a type cast -->
     <rule ref="Generic.Formatting.SpaceAfterCast" />
 
+    <!-- Improves indentation -->
+    <rule ref="Generic.WhiteSpace.ScopeIndent">
+        <properties>
+            <property name="exact" value="true" />
+        </properties>
+    </rule>
+
     <!-- Rules from Slevomat Coding Standard -->
     <rule ref="SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation" />
     <rule ref="SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace" />
