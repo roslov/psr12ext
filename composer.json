@@ -7,7 +7,7 @@
         "psr12",
         "dev"
     ],
-    "license": "BSD-3-Clause",
+    "license": "MIT",
     "authors": [
         {
             "name": "Oleksandr Roslov",
