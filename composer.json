@@ -4,7 +4,8 @@
     "description": "PSR-12 Extended Coding Standard",
     "keywords": [
         "codesniffer",
-        "psr12"
+        "psr12",
+        "dev"
     ],
     "license": "BSD-3-Clause",
     "authors": [
