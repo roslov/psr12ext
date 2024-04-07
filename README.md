@@ -76,6 +76,7 @@ Below you can find only the name of the rules:
 * SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace
 * SlevomatCodingStandard.Arrays.TrailingArrayComma
 * SlevomatCodingStandard.Attributes.AttributeAndTargetSpacing
+* SlevomatCodingStandard.Attributes.AttributesOrder
 * SlevomatCodingStandard.Attributes.DisallowMultipleAttributesPerLine
 * SlevomatCodingStandard.Attributes.DisallowAttributesJoining
 * SlevomatCodingStandard.Attributes.RequireAttributeAfterDocComment
