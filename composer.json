@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": "^7.2|^8.0",
-        "slevomat/coding-standard": "^8.8"
+        "slevomat/coding-standard": "^8.15"
     },
     "support": {
         "source": "https://github.com/roslov/psr12ext"
