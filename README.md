@@ -122,6 +122,7 @@ Below you can find only the name of the rules:
 * SlevomatCodingStandard.Namespaces.MultipleUsesPerLine
 * SlevomatCodingStandard.Namespaces.NamespaceDeclaration
 * SlevomatCodingStandard.Namespaces.NamespaceSpacing
+* SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly
 * SlevomatCodingStandard.Namespaces.RequireOneNamespaceInFile
 * SlevomatCodingStandard.Namespaces.UnusedUses
 * SlevomatCodingStandard.Namespaces.UseDoesNotStartWithBackslash
