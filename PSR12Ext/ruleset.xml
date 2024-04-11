@@ -141,7 +141,11 @@
             <property name="searchAnnotations" value="true" />
         </properties>
     </rule>
-    <rule ref="SlevomatCodingStandard.Namespaces.UseSpacing" />
+    <rule ref="SlevomatCodingStandard.Namespaces.UseSpacing">
+        <properties>
+            <property name="linesCountBetweenUseTypes" value="1" />
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.Operators.NegationOperatorSpacing" />
     <rule ref="SlevomatCodingStandard.Operators.RequireCombinedAssignmentOperator" />
     <rule ref="SlevomatCodingStandard.Operators.SpreadOperatorSpacing" />
