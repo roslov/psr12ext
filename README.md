@@ -154,6 +154,7 @@ Below you can find only the name of the rules:
 * SlevomatCodingStandard.Variables.DuplicateAssignmentToVariable
 * SlevomatCodingStandard.Variables.UnusedVariable
 * SlevomatCodingStandard.Variables.UselessVariable
+* SlevomatCodingStandard.Whitespaces.DuplicateSpaces
 * Squiz.ControlStructures.ControlSignature
 * Squiz.Strings.ConcatenationSpacing
 * Squiz.Strings.DoubleQuoteUsage.NotRequired
