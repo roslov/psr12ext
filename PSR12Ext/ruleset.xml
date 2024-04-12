@@ -176,9 +176,4 @@
     <rule ref="SlevomatCodingStandard.Variables.DuplicateAssignmentToVariable" />
     <rule ref="SlevomatCodingStandard.Variables.UnusedVariable" />
     <rule ref="SlevomatCodingStandard.Variables.UselessVariable" />
-
-    <!-- Ignore declare new symbols and execute logic with side effects same file -->
-    <rule ref="PSR1.Files.SideEffects.FoundWithSymbols">
-        <exclude-pattern>/web/*</exclude-pattern>
-    </rule>
 </ruleset>
