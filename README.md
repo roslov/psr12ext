@@ -157,6 +157,7 @@ Below you can find only the name of the rules:
 * Squiz.ControlStructures.ControlSignature
 * Squiz.Strings.ConcatenationSpacing
 * Squiz.Strings.DoubleQuoteUsage.NotRequired
+* Squiz.WhiteSpace.OperatorSpacing
 * Squiz.WhiteSpace.SuperfluousWhitespace
 
 
