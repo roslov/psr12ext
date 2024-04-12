@@ -60,6 +60,9 @@
         </properties>
     </rule>
 
+    <!-- Ignores new symbol declaration and logic execution with side effects in the same file -->
+    <rule ref="PSR1.Files.SideEffects.FoundWithSymbols" />
+
     <!-- Rules from Slevomat Coding Standard -->
     <rule ref="SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation" />
     <rule ref="SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace" />
@@ -185,9 +188,4 @@
     <rule ref="SlevomatCodingStandard.Variables.UnusedVariable" />
     <rule ref="SlevomatCodingStandard.Variables.UselessVariable" />
     <rule ref="SlevomatCodingStandard.Whitespaces.DuplicateSpaces" />
-
-    <!-- Ignore declare new symbols and execute logic with side effects same file -->
-    <rule ref="PSR1.Files.SideEffects.FoundWithSymbols">
-        <exclude-pattern>/web/*</exclude-pattern>
-    </rule>
 </ruleset>

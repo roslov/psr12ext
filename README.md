@@ -73,6 +73,7 @@ Below you can find only the name of the rules:
 * All rules of PSR12
 * Generic.Arrays.DisallowLongArraySyntax
 * Generic.Formatting.SpaceAfterCast
+* PSR1.Files.SideEffects.FoundWithSymbols
 * SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation
 * SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace
 * SlevomatCodingStandard.Arrays.TrailingArrayComma
