@@ -37,9 +37,8 @@ This file can include the list of rules you want to disable, as well as your cus
     <!-- Excludes vendor and temporary folders -->
     <exclude-pattern>vendor/*</exclude-pattern>
     <exclude-pattern>var/*</exclude-pattern>
-    <exclude-pattern>tests/_support/*</exclude-pattern>
 
-    <!-- Base standards -->
+    <!-- Base standards (if not detected) -->
     <config name="installed_paths" value="vendor/roslov/psr12ext" />
 
     <!-- Base rules -->
@@ -68,99 +67,152 @@ The List Of Rules Used In This Coding Standard
 
 All used rules with their options are described in [PSR12Ext/ruleset.xml](PSR12Ext/ruleset.xml).
 
-Below you can find only the name of the rules:
+Below you can find only names of the rules:
 
-* All rules of PSR12
-* Generic.Arrays.DisallowLongArraySyntax
-* Generic.Formatting.SpaceAfterCast
-* PSR1.Files.SideEffects.FoundWithSymbols
-* SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation
-* SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace
-* SlevomatCodingStandard.Arrays.TrailingArrayComma
-* SlevomatCodingStandard.Attributes.AttributeAndTargetSpacing
-* SlevomatCodingStandard.Attributes.AttributesOrder
-* SlevomatCodingStandard.Attributes.DisallowMultipleAttributesPerLine
-* SlevomatCodingStandard.Attributes.DisallowAttributesJoining
-* SlevomatCodingStandard.Attributes.RequireAttributeAfterDocComment
-* SlevomatCodingStandard.Classes.BackedEnumTypeSpacing
-* SlevomatCodingStandard.Classes.ClassConstantVisibility
-* SlevomatCodingStandard.Classes.ClassLength
-* SlevomatCodingStandard.Classes.ClassMemberSpacing
-* SlevomatCodingStandard.Classes.ClassStructure
-* SlevomatCodingStandard.Classes.ConstantSpacing
-* SlevomatCodingStandard.Classes.DisallowLateStaticBindingForConstants
-* SlevomatCodingStandard.Classes.DisallowMultiConstantDefinition
-* SlevomatCodingStandard.Classes.DisallowMultiPropertyDefinition
-* SlevomatCodingStandard.Classes.MethodSpacing
-* SlevomatCodingStandard.Classes.ModernClassNameReference
-* SlevomatCodingStandard.Classes.PropertyDeclaration
-* SlevomatCodingStandard.Classes.PropertySpacing
-* SlevomatCodingStandard.Classes.RequireAbstractOrFinal
-* SlevomatCodingStandard.Classes.TraitUseSpacing
-* SlevomatCodingStandard.Classes.UselessLateStaticBinding
-* SlevomatCodingStandard.Commenting.DeprecatedAnnotationDeclaration
-* SlevomatCodingStandard.Commenting.DisallowCommentAfterCode
-* SlevomatCodingStandard.Commenting.DocCommentSpacing
-* SlevomatCodingStandard.Commenting.EmptyComment
-* SlevomatCodingStandard.Commenting.InlineDocCommentDeclaration
-* SlevomatCodingStandard.Commenting.UselessFunctionDocComment
-* SlevomatCodingStandard.Complexity.Cognitive
-* SlevomatCodingStandard.ControlStructures.DisallowContinueWithoutIntegerOperandInSwitch
-* SlevomatCodingStandard.ControlStructures.LanguageConstructWithParentheses
-* SlevomatCodingStandard.ControlStructures.RequireNullCoalesceEqualOperator
-* SlevomatCodingStandard.ControlStructures.RequireNullCoalesceOperator
-* SlevomatCodingStandard.ControlStructures.UselessIfConditionWithReturn
-* SlevomatCodingStandard.ControlStructures.UselessTernaryOperator
-* SlevomatCodingStandard.Exceptions.DeadCatch
-* SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly
-* SlevomatCodingStandard.Exceptions.RequireNonCapturingCatch
-* SlevomatCodingStandard.Files.FileLength
-* SlevomatCodingStandard.Functions.ArrowFunctionDeclaration
-* SlevomatCodingStandard.Functions.DisallowEmptyFunction
-* SlevomatCodingStandard.Functions.StaticClosure
-* SlevomatCodingStandard.Functions.UnusedInheritedVariablePassedToClosure
-* SlevomatCodingStandard.Functions.UselessParameterDefaultValue
-* SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses
-* SlevomatCodingStandard.Namespaces.DisallowGroupUse
-* SlevomatCodingStandard.Namespaces.MultipleUsesPerLine
-* SlevomatCodingStandard.Namespaces.NamespaceDeclaration
-* SlevomatCodingStandard.Namespaces.NamespaceSpacing
-* SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly
-* SlevomatCodingStandard.Namespaces.RequireOneNamespaceInFile
-* SlevomatCodingStandard.Namespaces.UnusedUses
-* SlevomatCodingStandard.Namespaces.UseDoesNotStartWithBackslash
-* SlevomatCodingStandard.Namespaces.UselessAlias
-* SlevomatCodingStandard.Namespaces.UseSpacing
-* SlevomatCodingStandard.Operators.NegationOperatorSpacing
-* SlevomatCodingStandard.Operators.RequireCombinedAssignmentOperator
-* SlevomatCodingStandard.Operators.SpreadOperatorSpacing
-* SlevomatCodingStandard.PHP.ForbiddenClasses
-* SlevomatCodingStandard.PHP.OptimizedFunctionsWithoutUnpacking
-* SlevomatCodingStandard.PHP.RequireExplicitAssertion
-* SlevomatCodingStandard.PHP.ShortList
-* SlevomatCodingStandard.PHP.UselessParentheses
-* SlevomatCodingStandard.PHP.UselessSemicolon
-* SlevomatCodingStandard.TypeHints.DeclareStrictTypes
-* SlevomatCodingStandard.TypeHints.LongTypeHints
-* SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue
-* SlevomatCodingStandard.TypeHints.NullTypeHintOnLastPosition
-* SlevomatCodingStandard.TypeHints.ParameterTypeHint
-* SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing
-* SlevomatCodingStandard.TypeHints.PropertyTypeHint
-* SlevomatCodingStandard.TypeHints.ReturnTypeHint
-* SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing
-* SlevomatCodingStandard.TypeHints.UnionTypeHintFormat
-* SlevomatCodingStandard.TypeHints.UselessConstantTypeHint
-* SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable
-* SlevomatCodingStandard.Variables.DuplicateAssignmentToVariable
-* SlevomatCodingStandard.Variables.UnusedVariable
-* SlevomatCodingStandard.Variables.UselessVariable
-* SlevomatCodingStandard.Whitespaces.DuplicateSpaces
-* Squiz.ControlStructures.ControlSignature
-* Squiz.Strings.ConcatenationSpacing
-* Squiz.Strings.DoubleQuoteUsage.NotRequired
-* Squiz.WhiteSpace.OperatorSpacing
-* Squiz.WhiteSpace.SuperfluousWhitespace
+* **All rules of PSR12**:
+    * _All rules of PSR1_:
+        * Generic.Files.ByteOrderMark
+        * Generic.NamingConventions.UpperCaseConstantName
+        * Generic.PHP.DisallowAlternativePHPTags
+        * Generic.PHP.DisallowShortOpenTag
+        * Generic.PHP.DisallowShortOpenTag.EchoFound
+        * Squiz.Classes.ValidClassName
+    * Generic.ControlStructures.InlineControlStructure
+    * Generic.Files.LineEndings
+    * Generic.Files.LineLength
+    * Generic.Formatting.DisallowMultipleStatements
+    * Generic.Functions.FunctionCallArgumentSpacing
+    * Generic.PHP.LowerCaseConstant
+    * Generic.PHP.LowerCaseKeyword
+    * Generic.PHP.LowerCaseType
+    * Generic.WhiteSpace.DisallowTabIndent
+    * Generic.WhiteSpace.IncrementDecrementSpacing
+    * Generic.WhiteSpace.ScopeIndent
+    * PEAR.Functions.ValidDefaultValue
+    * PSR2.Classes.ClassDeclaration
+    * PSR2.Classes.PropertyDeclaration
+    * PSR2.ControlStructures.ElseIfDeclaration
+    * PSR2.ControlStructures.SwitchDeclaration
+    * PSR2.Files.ClosingTag
+    * PSR2.Files.EndFileNewline
+    * PSR2.Methods.FunctionCallSignature
+    * PSR2.Methods.FunctionCallSignature.OpeningIndent
+    * PSR2.Methods.FunctionCallSignature.SpaceAfterCloseBracket
+    * PSR2.Methods.FunctionClosingBrace
+    * PSR2.Methods.MethodDeclaration
+    * PSR2.Methods.MethodDeclaration.Underscore
+    * Squiz.ControlStructures.ControlSignature
+    * Squiz.ControlStructures.ForEachLoopDeclaration
+    * Squiz.ControlStructures.ForEachLoopDeclaration.AsNotLower
+    * Squiz.ControlStructures.ForEachLoopDeclaration.SpaceAfterOpen
+    * Squiz.ControlStructures.ForEachLoopDeclaration.SpaceBeforeClose
+    * Squiz.ControlStructures.ForLoopDeclaration
+    * Squiz.ControlStructures.ForLoopDeclaration.SpacingAfterOpen
+    * Squiz.ControlStructures.ForLoopDeclaration.SpacingBeforeClose
+    * Squiz.ControlStructures.LowercaseDeclaration
+    * Squiz.Functions.FunctionDeclaration
+    * Squiz.Functions.FunctionDeclarationArgumentSpacing
+    * Squiz.Functions.LowercaseFunctionKeywords
+    * Squiz.Functions.MultiLineFunctionDeclaration
+    * Squiz.Scope.MethodScope
+    * Squiz.WhiteSpace.CastSpacing
+    * Squiz.WhiteSpace.ControlStructureSpacing.SpacingAfterOpen
+    * Squiz.WhiteSpace.ControlStructureSpacing.SpacingBeforeClose
+    * Squiz.WhiteSpace.ScopeClosingBrace
+    * Squiz.WhiteSpace.ScopeKeywordSpacing
+    * Squiz.WhiteSpace.SuperfluousWhitespace
+    * Squiz.WhiteSpace.SuperfluousWhitespace.EmptyLines
+    * Squiz.WhiteSpace.SuperfluousWhitespace.EndFile
+    * Squiz.WhiteSpace.SuperfluousWhitespace.StartFile
+* **Custom rules:**
+    * Generic.Arrays.DisallowLongArraySyntax
+    * Generic.Formatting.SpaceAfterCast
+    * PSR1.Files.SideEffects.FoundWithSymbols
+    * SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation
+    * SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace
+    * SlevomatCodingStandard.Arrays.TrailingArrayComma
+    * SlevomatCodingStandard.Attributes.AttributeAndTargetSpacing
+    * SlevomatCodingStandard.Attributes.AttributesOrder
+    * SlevomatCodingStandard.Attributes.DisallowMultipleAttributesPerLine
+    * SlevomatCodingStandard.Attributes.DisallowAttributesJoining
+    * SlevomatCodingStandard.Attributes.RequireAttributeAfterDocComment
+    * SlevomatCodingStandard.Classes.BackedEnumTypeSpacing
+    * SlevomatCodingStandard.Classes.ClassConstantVisibility
+    * SlevomatCodingStandard.Classes.ClassLength
+    * SlevomatCodingStandard.Classes.ClassMemberSpacing
+    * SlevomatCodingStandard.Classes.ClassStructure
+    * SlevomatCodingStandard.Classes.ConstantSpacing
+    * SlevomatCodingStandard.Classes.DisallowLateStaticBindingForConstants
+    * SlevomatCodingStandard.Classes.DisallowMultiConstantDefinition
+    * SlevomatCodingStandard.Classes.DisallowMultiPropertyDefinition
+    * SlevomatCodingStandard.Classes.MethodSpacing
+    * SlevomatCodingStandard.Classes.ModernClassNameReference
+    * SlevomatCodingStandard.Classes.PropertyDeclaration
+    * SlevomatCodingStandard.Classes.PropertySpacing
+    * SlevomatCodingStandard.Classes.RequireAbstractOrFinal
+    * SlevomatCodingStandard.Classes.TraitUseSpacing
+    * SlevomatCodingStandard.Classes.UselessLateStaticBinding
+    * SlevomatCodingStandard.Commenting.DeprecatedAnnotationDeclaration
+    * SlevomatCodingStandard.Commenting.DisallowCommentAfterCode
+    * SlevomatCodingStandard.Commenting.DocCommentSpacing
+    * SlevomatCodingStandard.Commenting.EmptyComment
+    * SlevomatCodingStandard.Commenting.InlineDocCommentDeclaration
+    * SlevomatCodingStandard.Commenting.UselessFunctionDocComment
+    * SlevomatCodingStandard.Complexity.Cognitive
+    * SlevomatCodingStandard.ControlStructures.DisallowContinueWithoutIntegerOperandInSwitch
+    * SlevomatCodingStandard.ControlStructures.LanguageConstructWithParentheses
+    * SlevomatCodingStandard.ControlStructures.RequireNullCoalesceEqualOperator
+    * SlevomatCodingStandard.ControlStructures.RequireNullCoalesceOperator
+    * SlevomatCodingStandard.ControlStructures.UselessIfConditionWithReturn
+    * SlevomatCodingStandard.ControlStructures.UselessTernaryOperator
+    * SlevomatCodingStandard.Exceptions.DeadCatch
+    * SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly
+    * SlevomatCodingStandard.Exceptions.RequireNonCapturingCatch
+    * SlevomatCodingStandard.Files.FileLength
+    * SlevomatCodingStandard.Functions.ArrowFunctionDeclaration
+    * SlevomatCodingStandard.Functions.DisallowEmptyFunction
+    * SlevomatCodingStandard.Functions.StaticClosure
+    * SlevomatCodingStandard.Functions.UnusedInheritedVariablePassedToClosure
+    * SlevomatCodingStandard.Functions.UselessParameterDefaultValue
+    * SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses
+    * SlevomatCodingStandard.Namespaces.DisallowGroupUse
+    * SlevomatCodingStandard.Namespaces.MultipleUsesPerLine
+    * SlevomatCodingStandard.Namespaces.NamespaceDeclaration
+    * SlevomatCodingStandard.Namespaces.NamespaceSpacing
+    * SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly
+    * SlevomatCodingStandard.Namespaces.RequireOneNamespaceInFile
+    * SlevomatCodingStandard.Namespaces.UnusedUses
+    * SlevomatCodingStandard.Namespaces.UseDoesNotStartWithBackslash
+    * SlevomatCodingStandard.Namespaces.UselessAlias
+    * SlevomatCodingStandard.Namespaces.UseSpacing
+    * SlevomatCodingStandard.Operators.NegationOperatorSpacing
+    * SlevomatCodingStandard.Operators.RequireCombinedAssignmentOperator
+    * SlevomatCodingStandard.Operators.SpreadOperatorSpacing
+    * SlevomatCodingStandard.PHP.ForbiddenClasses
+    * SlevomatCodingStandard.PHP.OptimizedFunctionsWithoutUnpacking
+    * SlevomatCodingStandard.PHP.RequireExplicitAssertion
+    * SlevomatCodingStandard.PHP.ShortList
+    * SlevomatCodingStandard.PHP.UselessParentheses
+    * SlevomatCodingStandard.PHP.UselessSemicolon
+    * SlevomatCodingStandard.TypeHints.DeclareStrictTypes
+    * SlevomatCodingStandard.TypeHints.LongTypeHints
+    * SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue
+    * SlevomatCodingStandard.TypeHints.NullTypeHintOnLastPosition
+    * SlevomatCodingStandard.TypeHints.ParameterTypeHint
+    * SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing
+    * SlevomatCodingStandard.TypeHints.PropertyTypeHint
+    * SlevomatCodingStandard.TypeHints.ReturnTypeHint
+    * SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing
+    * SlevomatCodingStandard.TypeHints.UnionTypeHintFormat
+    * SlevomatCodingStandard.TypeHints.UselessConstantTypeHint
+    * SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable
+    * SlevomatCodingStandard.Variables.DuplicateAssignmentToVariable
+    * SlevomatCodingStandard.Variables.UnusedVariable
+    * SlevomatCodingStandard.Variables.UselessVariable
+    * SlevomatCodingStandard.Whitespaces.DuplicateSpaces
+    * Squiz.Strings.ConcatenationSpacing
+    * Squiz.Strings.DoubleQuoteUsage.NotRequired
+    * Squiz.WhiteSpace.OperatorSpacing
 
 
 Versioning
