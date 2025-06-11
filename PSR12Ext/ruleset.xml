@@ -91,7 +91,7 @@
     <rule ref="SlevomatCodingStandard.Classes.PropertySpacing" />
     <rule ref="SlevomatCodingStandard.Classes.RequireAbstractOrFinal">
         <exclude-pattern>*/Entity/*</exclude-pattern>
-    </rule>>
+    </rule>
     <rule ref="SlevomatCodingStandard.Classes.TraitUseSpacing">
         <properties>
             <property name="linesCountBeforeFirstUse" value="0" />
@@ -169,7 +169,7 @@
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
             <property name="linesCountBeforeDeclare" value="1" />
-            <property name="linesCountBeforeDeclare" value="1" />
+            <property name="linesCountAfterDeclare" value="1" />
             <property name="spacesCountAroundEqualsSign" value="0" />
         </properties>
     </rule>
