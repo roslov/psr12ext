@@ -11,7 +11,7 @@ This repository extends the [PSR-12 coding style](https://www.php-fig.org/psr/ps
 
 In addition to PSR-12 this coding style also contains some rules from
 the [Slevomat Coding Standard](https://github.com/slevomat/coding-standard)
-and [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer).
+and [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer).
 
 
 Using This Code Style
