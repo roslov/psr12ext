@@ -128,13 +128,15 @@ Below you can find only names of the rules:
     * Generic.Arrays.DisallowLongArraySyntax
     * Generic.Formatting.SpaceAfterCast
     * PSR1.Files.SideEffects.FoundWithSymbols
+    * SlevomatCodingStandard.Arrays.ArrayAccess
     * SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation
+    * SlevomatCodingStandard.Arrays.DisallowPartiallyKeyed
     * SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace
     * SlevomatCodingStandard.Arrays.TrailingArrayComma
     * SlevomatCodingStandard.Attributes.AttributeAndTargetSpacing
     * SlevomatCodingStandard.Attributes.AttributesOrder
-    * SlevomatCodingStandard.Attributes.DisallowMultipleAttributesPerLine
     * SlevomatCodingStandard.Attributes.DisallowAttributesJoining
+    * SlevomatCodingStandard.Attributes.DisallowMultipleAttributesPerLine
     * SlevomatCodingStandard.Attributes.RequireAttributeAfterDocComment
     * SlevomatCodingStandard.Classes.BackedEnumTypeSpacing
     * SlevomatCodingStandard.Classes.ClassConstantVisibility
@@ -145,13 +147,19 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.Classes.DisallowLateStaticBindingForConstants
     * SlevomatCodingStandard.Classes.DisallowMultiConstantDefinition
     * SlevomatCodingStandard.Classes.DisallowMultiPropertyDefinition
+    * SlevomatCodingStandard.Classes.DisallowStringExpressionPropertyFetch
+    * SlevomatCodingStandard.Classes.EnumCaseSpacing
     * SlevomatCodingStandard.Classes.MethodSpacing
     * SlevomatCodingStandard.Classes.ModernClassNameReference
+    * SlevomatCodingStandard.Classes.ParentCallSpacing
     * SlevomatCodingStandard.Classes.PropertyDeclaration
     * SlevomatCodingStandard.Classes.PropertySpacing
     * SlevomatCodingStandard.Classes.RequireAbstractOrFinal
+    * SlevomatCodingStandard.Classes.RequireMultiLineMethodSignature
+    * SlevomatCodingStandard.Classes.RequireSelfReference
     * SlevomatCodingStandard.Classes.TraitUseSpacing
     * SlevomatCodingStandard.Classes.UselessLateStaticBinding
+    * SlevomatCodingStandard.Commenting.AnnotationName
     * SlevomatCodingStandard.Commenting.DeprecatedAnnotationDeclaration
     * SlevomatCodingStandard.Commenting.DisallowCommentAfterCode
     * SlevomatCodingStandard.Commenting.DocCommentSpacing
@@ -160,9 +168,12 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.Commenting.UselessFunctionDocComment
     * SlevomatCodingStandard.Complexity.Cognitive
     * SlevomatCodingStandard.ControlStructures.DisallowContinueWithoutIntegerOperandInSwitch
+    * SlevomatCodingStandard.ControlStructures.JumpStatementsSpacing
     * SlevomatCodingStandard.ControlStructures.LanguageConstructWithParentheses
+    * SlevomatCodingStandard.ControlStructures.NewWithParentheses
     * SlevomatCodingStandard.ControlStructures.RequireNullCoalesceEqualOperator
     * SlevomatCodingStandard.ControlStructures.RequireNullCoalesceOperator
+    * SlevomatCodingStandard.ControlStructures.RequireNullSafeObjectOperator
     * SlevomatCodingStandard.ControlStructures.UselessIfConditionWithReturn
     * SlevomatCodingStandard.ControlStructures.UselessTernaryOperator
     * SlevomatCodingStandard.Exceptions.DeadCatch
@@ -171,6 +182,8 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.Files.FileLength
     * SlevomatCodingStandard.Functions.ArrowFunctionDeclaration
     * SlevomatCodingStandard.Functions.DisallowEmptyFunction
+    * SlevomatCodingStandard.Functions.NamedArgumentSpacing
+    * SlevomatCodingStandard.Functions.RequireTrailingCommaInCall
     * SlevomatCodingStandard.Functions.StaticClosure
     * SlevomatCodingStandard.Functions.UnusedInheritedVariablePassedToClosure
     * SlevomatCodingStandard.Functions.UselessParameterDefaultValue
@@ -194,6 +207,7 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.PHP.ShortList
     * SlevomatCodingStandard.PHP.UselessParentheses
     * SlevomatCodingStandard.PHP.UselessSemicolon
+    * SlevomatCodingStandard.Strings.DisallowVariableParsing
     * SlevomatCodingStandard.TypeHints.DeclareStrictTypes
     * SlevomatCodingStandard.TypeHints.LongTypeHints
     * SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue
