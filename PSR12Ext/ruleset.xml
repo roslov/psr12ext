@@ -36,6 +36,11 @@
         </properties>
     </rule>
 
+    <!-- Disallows extra empty lines -->
+    <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace.EmptyLines">
+        <severity>5</severity>
+    </rule>
+
     <!-- Checks the spacing after a type cast -->
     <rule ref="Generic.Formatting.SpaceAfterCast" />
 
