@@ -275,13 +275,16 @@ PSR-12 Extended Coding Standard uses a `MAJOR.MINOR.PATCH` version number format
 The `MAJOR` version is incremented when:
 - the major version of Slevomat Coding Standard is changed, or
 - the major version of PHP_CodeSniffer is changed, or
+- the major version of PHP is added, or
+- the minor version of PHP is removed, or
 - backward-incompatible changes are made to the `ruleset.xml` format, or
-- new sniffs are enabled in this standard (added to the list), or
 - existing sniffs are removed from this standard (removed from the list).
 
 The `MINOR` version is incremented when:
 - the minor version of Slevomat Coding Standard is changed, or
 - the minor version of PHP_CodeSniffer is changed, or
+- the minor version of PHP is added, or
+- new sniffs are enabled in this standard (added to the list), or
 - backward-compatible changes are made to the `ruleset.xml` format.
 
 The `PATCH` version is incremented when:
