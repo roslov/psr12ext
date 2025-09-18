@@ -241,6 +241,7 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.PHP.UselessParentheses
     * SlevomatCodingStandard.PHP.UselessSemicolon
     * SlevomatCodingStandard.Strings.DisallowVariableParsing
+    * SlevomatCodingStandard.TypeHints.ClassConstantTypeHint
     * SlevomatCodingStandard.TypeHints.DeclareStrictTypes
     * SlevomatCodingStandard.TypeHints.LongTypeHints
     * SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue
