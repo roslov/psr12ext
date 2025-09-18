@@ -215,6 +215,7 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.Functions.DisallowEmptyFunction
     * SlevomatCodingStandard.Functions.NamedArgumentSpacing
     * SlevomatCodingStandard.Functions.RequireTrailingCommaInCall
+    * SlevomatCodingStandard.Functions.RequireTrailingCommaInDeclaration
     * SlevomatCodingStandard.Functions.StaticClosure
     * SlevomatCodingStandard.Functions.UnusedInheritedVariablePassedToClosure
     * SlevomatCodingStandard.Functions.UselessParameterDefaultValue
