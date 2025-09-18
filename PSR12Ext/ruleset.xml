@@ -60,8 +60,45 @@
         </properties>
     </rule>
 
-    <!-- Ignores new symbol declaration and logic execution with side effects in the same file -->
-    <rule ref="PSR1.Files.SideEffects.FoundWithSymbols" />
+    <!-- Other rules from CodeSniffer -->
+    <rule ref="Generic.CodeAnalysis.EmptyPHPStatement" />
+    <rule ref="Generic.CodeAnalysis.EmptyStatement" />
+    <rule ref="Generic.CodeAnalysis.JumbledIncrementer" />
+    <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier" />
+    <rule ref="Generic.CodeAnalysis.UnusedFunctionParameter" />
+    <rule ref="Generic.CodeAnalysis.UselessOverridingMethod" />
+    <rule ref="Generic.ControlStructures.DisallowYodaConditions" />
+    <rule ref="Generic.Files.EndFileNewline" />
+    <rule ref="Generic.Files.ExecutableFile" />
+    <rule ref="Generic.NamingConventions.InterfaceNameSuffix" />
+    <rule ref="Generic.NamingConventions.TraitNameSuffix" />
+    <rule ref="Generic.PHP.DisallowRequestSuperglobal" />
+    <rule ref="Generic.PHP.Syntax" />
+    <rule ref="Generic.Strings.UnnecessaryHeredoc" />
+    <rule ref="Generic.VersionControl.GitMergeConflict" />
+    <rule ref="Generic.WhiteSpace.HereNowdocIdentifierSpacing" />
+    <rule ref="Generic.WhiteSpace.SpreadOperatorSpacingAfter" />
+    <rule ref="PEAR.ControlStructures.ControlSignature" />
+    <rule ref="PSR1.Files.SideEffects" />
+    <rule ref="PSR12.Classes.AnonClassDeclaration" />
+    <rule ref="PSR12.Classes.ClosingBrace" />
+    <rule ref="PSR12.ControlStructures.BooleanOperatorPlacement" />
+    <rule ref="PSR12.ControlStructures.ControlStructureSpacing" />
+    <rule ref="PSR12.Files.DeclareStatement" />
+    <rule ref="PSR12.Files.FileHeader" />
+    <rule ref="PSR12.Files.ImportStatement" />
+    <rule ref="PSR12.Files.OpenTag" />
+    <rule ref="PSR12.Functions.ReturnTypeDeclaration" />
+    <rule ref="PSR12.Properties.ConstantVisibility" />
+    <rule ref="PSR12.Traits.UseDeclaration" />
+    <rule ref="PSR2.Methods.FunctionCallSignature.SpaceBeforeCloseBracket" />
+    <rule ref="Squiz.Classes.ClassDeclaration" />
+    <rule ref="Squiz.Classes.LowercaseClassKeywords" />
+    <rule ref="Squiz.Commenting.DocCommentAlignment" />
+    <rule ref="Squiz.Commenting.PostStatementComment" />
+    <rule ref="Squiz.PHP.NonExecutableCode" />
+    <rule ref="Squiz.Scope.StaticThisUsage" />
+    <rule ref="Squiz.WhiteSpace.ControlStructureSpacing" />
 
     <!-- Rules from Slevomat Coding Standard -->
     <rule ref="SlevomatCodingStandard.Arrays.ArrayAccess" />

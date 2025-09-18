@@ -126,8 +126,39 @@ Below you can find only names of the rules:
     * Squiz.WhiteSpace.SuperfluousWhitespace.StartFile
 * **Custom rules:**
     * Generic.Arrays.DisallowLongArraySyntax
+    * Generic.CodeAnalysis.EmptyPHPStatement
+    * Generic.CodeAnalysis.EmptyStatement
+    * Generic.CodeAnalysis.JumbledIncrementer
+    * Generic.CodeAnalysis.UnnecessaryFinalModifier
+    * Generic.CodeAnalysis.UnusedFunctionParameter
+    * Generic.CodeAnalysis.UselessOverridingMethod
+    * Generic.ControlStructures.DisallowYodaConditions
+    * Generic.Files.EndFileNewline
+    * Generic.Files.ExecutableFile
     * Generic.Formatting.SpaceAfterCast
+    * Generic.NamingConventions.InterfaceNameSuffix
+    * Generic.NamingConventions.TraitNameSuffix
+    * Generic.PHP.DisallowRequestSuperglobal
+    * Generic.PHP.Syntax
+    * Generic.Strings.UnnecessaryHeredoc
+    * Generic.VersionControl.GitMergeConflict
+    * Generic.WhiteSpace.HereNowdocIdentifierSpacing
+    * Generic.WhiteSpace.SpreadOperatorSpacingAfter
+    * PEAR.ControlStructures.ControlSignature
+    * PSR1.Files.SideEffects
     * PSR1.Files.SideEffects.FoundWithSymbols
+    * PSR12.Classes.AnonClassDeclaration
+    * PSR12.Classes.ClosingBrace
+    * PSR12.ControlStructures.BooleanOperatorPlacement
+    * PSR12.ControlStructures.ControlStructureSpacing
+    * PSR12.Files.DeclareStatement
+    * PSR12.Files.FileHeader
+    * PSR12.Files.ImportStatement
+    * PSR12.Files.OpenTag
+    * PSR12.Functions.ReturnTypeDeclaration
+    * PSR12.Properties.ConstantVisibility
+    * PSR12.Traits.UseDeclaration
+    * PSR2.Methods.FunctionCallSignature.SpaceBeforeCloseBracket
     * SlevomatCodingStandard.Arrays.ArrayAccess
     * SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation
     * SlevomatCodingStandard.Arrays.DisallowPartiallyKeyed
@@ -224,8 +255,15 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.Variables.UnusedVariable
     * SlevomatCodingStandard.Variables.UselessVariable
     * SlevomatCodingStandard.Whitespaces.DuplicateSpaces
+    * Squiz.Classes.ClassDeclaration
+    * Squiz.Classes.LowercaseClassKeywords
+    * Squiz.Commenting.DocCommentAlignment
+    * Squiz.Commenting.PostStatementComment
+    * Squiz.PHP.NonExecutableCode
+    * Squiz.Scope.StaticThisUsage
     * Squiz.Strings.ConcatenationSpacing
     * Squiz.Strings.DoubleQuoteUsage.NotRequired
+    * Squiz.WhiteSpace.ControlStructureSpacing
     * Squiz.WhiteSpace.OperatorSpacing
 
 
