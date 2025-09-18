@@ -224,6 +224,7 @@
     <rule ref="SlevomatCodingStandard.PHP.UselessParentheses" />
     <rule ref="SlevomatCodingStandard.PHP.UselessSemicolon" />
     <rule ref="SlevomatCodingStandard.Strings.DisallowVariableParsing" />
+    <rule ref="SlevomatCodingStandard.TypeHints.ClassConstantTypeHint" />
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
             <property name="linesCountBeforeDeclare" value="1" />
