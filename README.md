@@ -243,6 +243,7 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.Strings.DisallowVariableParsing
     * SlevomatCodingStandard.TypeHints.ClassConstantTypeHint
     * SlevomatCodingStandard.TypeHints.DeclareStrictTypes
+    * SlevomatCodingStandard.TypeHints.DNFTypeHintFormat
     * SlevomatCodingStandard.TypeHints.LongTypeHints
     * SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue
     * SlevomatCodingStandard.TypeHints.NullTypeHintOnLastPosition
@@ -251,7 +252,6 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.TypeHints.PropertyTypeHint
     * SlevomatCodingStandard.TypeHints.ReturnTypeHint
     * SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing
-    * SlevomatCodingStandard.TypeHints.UnionTypeHintFormat
     * SlevomatCodingStandard.TypeHints.UselessConstantTypeHint
     * SlevomatCodingStandard.Variables.DisallowSuperGlobalVariable
     * SlevomatCodingStandard.Variables.DuplicateAssignmentToVariable
