@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "slevomat/coding-standard": "^8.15",
+        "slevomat/coding-standard": "^8.22",
         "squizlabs/php_codesniffer": "^3.13"
     },
     "support": {
