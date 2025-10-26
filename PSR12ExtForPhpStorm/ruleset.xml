@@ -2,9 +2,6 @@
 <ruleset name="PSR12ExtForPhpStorm">
     <description>PSR-12 Extended Coding Standard (compatible with PhpStorm)</description>
 
-    <!-- Base standards -->
-    <config name="installed_paths" value="../PSR12Ext" />
-
     <!-- PSR-12 Extended standard -->
     <rule ref="PSR12Ext" />
 
