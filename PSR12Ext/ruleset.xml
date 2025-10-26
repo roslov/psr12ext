@@ -159,6 +159,8 @@
                 <element value="
                     @var,
                     @param,
+                " />
+                <element value="
                     @return,
                 " />
             </property>
