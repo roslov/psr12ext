@@ -197,6 +197,7 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.Commenting.DocCommentSpacing
     * SlevomatCodingStandard.Commenting.EmptyComment
     * SlevomatCodingStandard.Commenting.InlineDocCommentDeclaration
+    * SlevomatCodingStandard.Commenting.RequireOneDocComment
     * SlevomatCodingStandard.Commenting.UselessFunctionDocComment
     * SlevomatCodingStandard.Complexity.Cognitive
     * SlevomatCodingStandard.ControlStructures.DisallowContinueWithoutIntegerOperandInSwitch
