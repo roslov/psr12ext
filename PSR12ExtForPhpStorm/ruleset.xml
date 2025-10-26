@@ -2,6 +2,9 @@
 <ruleset name="PSR12ExtForPhpStorm">
     <description>PSR-12 Extended Coding Standard (compatible with PhpStorm)</description>
 
+    <!-- Limits the execution time to avoid too many running containers -->
+    <ini name="max_execution_time" value="300" />
+
     <!-- PSR-12 Extended standard -->
     <rule ref="PSR12Ext" />
 
