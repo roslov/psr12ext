@@ -81,6 +81,7 @@
     <rule ref="Generic.PHP.Syntax" />
     <rule ref="Generic.Strings.UnnecessaryHeredoc" />
     <rule ref="Generic.VersionControl.GitMergeConflict" />
+    <rule ref="Generic.WhiteSpace.GotoTargetSpacing" />
     <rule ref="Generic.WhiteSpace.HereNowdocIdentifierSpacing" />
     <rule ref="Generic.WhiteSpace.SpreadOperatorSpacingAfter" />
     <rule ref="PEAR.ControlStructures.ControlSignature" />

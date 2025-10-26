@@ -86,6 +86,7 @@ Below you can find only names of the rules:
     * Generic.PHP.LowerCaseKeyword
     * Generic.PHP.LowerCaseType
     * Generic.WhiteSpace.DisallowTabIndent
+    * Generic.WhiteSpace.GotoTargetSpacing
     * Generic.WhiteSpace.IncrementDecrementSpacing
     * Generic.WhiteSpace.ScopeIndent
     * PEAR.Functions.ValidDefaultValue
