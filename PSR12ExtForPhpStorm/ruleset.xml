@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="PSR12ExtForPhpStorm">
+    <description>PSR-12 Extended Coding Standard (compatible with PhpStorm)</description>
+
+    <!-- PSR-12 Extended standard -->
+    <rule ref="PSR12Ext" />
+
+    <!-- Disables rules incompatible with PhpStorm -->
+    <rule ref="Generic.Files.ExecutableFile">
+        <exclude-pattern>*</exclude-pattern>
+    </rule>
+</ruleset>
