@@ -216,6 +216,7 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.Functions.ArrowFunctionDeclaration
     * SlevomatCodingStandard.Functions.DisallowEmptyFunction
     * SlevomatCodingStandard.Functions.NamedArgumentSpacing
+    * SlevomatCodingStandard.Functions.RequireMultiLineCall
     * SlevomatCodingStandard.Functions.RequireTrailingCommaInCall
     * SlevomatCodingStandard.Functions.RequireTrailingCommaInClosureUse
     * SlevomatCodingStandard.Functions.RequireTrailingCommaInDeclaration
