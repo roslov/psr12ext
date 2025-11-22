@@ -41,6 +41,9 @@ This file can include the list of rules you want to disable, as well as your cus
     <!-- Base standards (if not detected) -->
     <config name="installed_paths" value="vendor/roslov/psr12ext" />
 
+    <!-- Sets the target PHP version: 8.3.0 -->
+    <config name="php_version" value="80300" />
+
     <!-- Base rules -->
     <rule ref="PSR12Ext">
         <!-- Ignores line endings -->
@@ -60,6 +63,8 @@ This file can include the list of rules you want to disable, as well as your cus
     </rule>
 </ruleset>
 ```
+
+Instead of `<config name="php_version" value="80300" />`, you can run `phpcs --runtime-set php_version 80300`
 
 
 The List Of Rules Used In This Coding Standard
