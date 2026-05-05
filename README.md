@@ -153,6 +153,7 @@ Below you can find only names of the rules:
     * PEAR.ControlStructures.ControlSignature
     * PSR1.Files.SideEffects
     * PSR1.Files.SideEffects.FoundWithSymbols
+    * PSR2.Methods.FunctionCallSignature.SpaceBeforeCloseBracket
     * PSR12.Classes.AnonClassDeclaration
     * PSR12.Classes.ClosingBrace
     * PSR12.ControlStructures.BooleanOperatorPlacement
@@ -164,7 +165,6 @@ Below you can find only names of the rules:
     * PSR12.Functions.ReturnTypeDeclaration
     * PSR12.Properties.ConstantVisibility
     * PSR12.Traits.UseDeclaration
-    * PSR2.Methods.FunctionCallSignature.SpaceBeforeCloseBracket
     * SlevomatCodingStandard.Arrays.ArrayAccess
     * SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation
     * SlevomatCodingStandard.Arrays.DisallowPartiallyKeyed
@@ -177,6 +177,7 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.Attributes.RequireAttributeAfterDocComment
     * SlevomatCodingStandard.Classes.BackedEnumTypeSpacing
     * SlevomatCodingStandard.Classes.ClassConstantVisibility
+    * SlevomatCodingStandard.Classes.ClassKeywordOrder
     * SlevomatCodingStandard.Classes.ClassLength
     * SlevomatCodingStandard.Classes.ClassMemberSpacing
     * SlevomatCodingStandard.Classes.ClassStructure
@@ -194,6 +195,7 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.Classes.RequireAbstractOrFinal
     * SlevomatCodingStandard.Classes.RequireMultiLineMethodSignature
     * SlevomatCodingStandard.Classes.RequireSelfReference
+    * SlevomatCodingStandard.Classes.TraitUseOrder
     * SlevomatCodingStandard.Classes.TraitUseSpacing
     * SlevomatCodingStandard.Classes.UselessLateStaticBinding
     * SlevomatCodingStandard.Commenting.AnnotationName
@@ -203,6 +205,7 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.Commenting.EmptyComment
     * SlevomatCodingStandard.Commenting.InlineDocCommentDeclaration
     * SlevomatCodingStandard.Commenting.RequireOneDocComment
+    * SlevomatCodingStandard.Commenting.ThrowsAnnotationsOrder
     * SlevomatCodingStandard.Commenting.UselessFunctionDocComment
     * SlevomatCodingStandard.Complexity.Cognitive
     * SlevomatCodingStandard.ControlStructures.DisallowContinueWithoutIntegerOperandInSwitch
@@ -214,6 +217,7 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.ControlStructures.RequireNullSafeObjectOperator
     * SlevomatCodingStandard.ControlStructures.UselessIfConditionWithReturn
     * SlevomatCodingStandard.ControlStructures.UselessTernaryOperator
+    * SlevomatCodingStandard.Exceptions.CatchExceptionsOrder
     * SlevomatCodingStandard.Exceptions.DeadCatch
     * SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly
     * SlevomatCodingStandard.Exceptions.RequireNonCapturingCatch
