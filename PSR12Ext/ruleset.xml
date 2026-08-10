@@ -245,7 +245,11 @@
             <property name="spacesCountAroundEqualsSign" value="0" />
         </properties>
     </rule>
-    <rule ref="SlevomatCodingStandard.TypeHints.DNFTypeHintFormat" />
+    <rule ref="SlevomatCodingStandard.TypeHints.DNFTypeHintFormat">
+        <properties>
+            <property name="enableForDocComments" value="true" />
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.LongTypeHints" />
     <rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue" />
     <rule ref="SlevomatCodingStandard.TypeHints.NullTypeHintOnLastPosition" />
