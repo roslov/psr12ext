@@ -206,6 +206,8 @@
     <rule ref="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly">
         <properties>
             <property name="searchAnnotations" value="true" />
+            <property name="allowFallbackGlobalConstants" value="false" />
+            <property name="allowFallbackGlobalFunctions" value="false" />
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Namespaces.RequireOneNamespaceInFile" />
