@@ -7,7 +7,8 @@ PSR-12 Extended Coding Standard
 [![License](http://poser.pugx.org/roslov/psr12ext/license)](https://packagist.org/packages/roslov/psr12ext)
 [![PHP Version Require](http://poser.pugx.org/roslov/psr12ext/require/php)](https://packagist.org/packages/roslov/psr12ext)
 
-This repository extends the [PSR-12 coding style](https://www.php-fig.org/psr/psr-12/).
+This repository extends the [PSR-12 coding style](https://www.php-fig.org/psr/psr-12/) and is compatible with
+[PER Coding Style 3.1](https://www.php-fig.org/per/coding-style/).
 
 In addition to PSR-12 this coding style also contains some rules from
 the [Slevomat Coding Standard](https://github.com/slevomat/coding-standard)
@@ -74,7 +75,11 @@ All used rules with their options are described in [PSR12Ext/ruleset.xml](PSR12E
 
 Below you can find only names of the rules:
 
-* **All rules of PSR12**:
+* **All rules of PSR12**
+  _(except
+  `PSR2.Classes.ClassDeclaration.OpenBraceNewLine`,
+  `Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine`,
+  and `Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore` to permit single-line empty `{}` bodies)_:
     * _All rules of PSR1_:
         * Generic.Files.ByteOrderMark
         * Generic.NamingConventions.UpperCaseConstantName
@@ -131,6 +136,7 @@ Below you can find only names of the rules:
     * Squiz.WhiteSpace.SuperfluousWhitespace.EndFile
     * Squiz.WhiteSpace.SuperfluousWhitespace.StartFile
 * **Custom rules:**
+    * Generic.Arrays.ArrayIndent
     * Generic.Arrays.DisallowLongArraySyntax
     * Generic.CodeAnalysis.EmptyPHPStatement
     * Generic.CodeAnalysis.EmptyStatement
@@ -142,17 +148,21 @@ Below you can find only names of the rules:
     * Generic.Files.EndFileNewline
     * Generic.Files.ExecutableFile
     * Generic.Formatting.SpaceAfterCast
+    * Generic.NamingConventions.CamelCapsFunctionName
     * Generic.NamingConventions.InterfaceNameSuffix
     * Generic.NamingConventions.TraitNameSuffix
     * Generic.PHP.DisallowRequestSuperglobal
     * Generic.PHP.Syntax
     * Generic.Strings.UnnecessaryHeredoc
     * Generic.VersionControl.GitMergeConflict
+    * Generic.WhiteSpace.GotoTargetSpacing
     * Generic.WhiteSpace.HereNowdocIdentifierSpacing
     * Generic.WhiteSpace.SpreadOperatorSpacingAfter
     * PEAR.ControlStructures.ControlSignature
+    * PEAR.WhiteSpace.ObjectOperatorIndent
     * PSR1.Files.SideEffects
     * PSR1.Files.SideEffects.FoundWithSymbols
+    * PSR2.ControlStructures.ElseIfDeclaration.NotAllowed
     * PSR2.Methods.FunctionCallSignature.SpaceBeforeCloseBracket
     * PSR12.Classes.AnonClassDeclaration
     * PSR12.Classes.ClosingBrace
@@ -168,6 +178,7 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.Arrays.ArrayAccess
     * SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation
     * SlevomatCodingStandard.Arrays.DisallowPartiallyKeyed
+    * SlevomatCodingStandard.Arrays.MultiLineArrayEndBracketPlacement
     * SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace
     * SlevomatCodingStandard.Arrays.TrailingArrayComma
     * SlevomatCodingStandard.Attributes.AttributeAndTargetSpacing
@@ -195,6 +206,7 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.Classes.RequireAbstractOrFinal
     * SlevomatCodingStandard.Classes.RequireMultiLineMethodSignature
     * SlevomatCodingStandard.Classes.RequireSelfReference
+    * SlevomatCodingStandard.Classes.TraitUseDeclaration
     * SlevomatCodingStandard.Classes.TraitUseOrder
     * SlevomatCodingStandard.Classes.TraitUseSpacing
     * SlevomatCodingStandard.Classes.UselessLateStaticBinding
@@ -209,6 +221,7 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.Commenting.UselessFunctionDocComment
     * SlevomatCodingStandard.Complexity.Cognitive
     * SlevomatCodingStandard.ControlStructures.DisallowContinueWithoutIntegerOperandInSwitch
+    * SlevomatCodingStandard.ControlStructures.DisallowTrailingMultiLineTernaryOperator
     * SlevomatCodingStandard.ControlStructures.JumpStatementsSpacing
     * SlevomatCodingStandard.ControlStructures.LanguageConstructWithParentheses
     * SlevomatCodingStandard.ControlStructures.NewWithParentheses
@@ -223,8 +236,11 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.Exceptions.RequireNonCapturingCatch
     * SlevomatCodingStandard.Files.FileLength
     * SlevomatCodingStandard.Functions.ArrowFunctionDeclaration
-    * SlevomatCodingStandard.Functions.DisallowEmptyFunction
+    * SlevomatCodingStandard.Functions.DisallowTrailingCommaInCall
+    * SlevomatCodingStandard.Functions.DisallowTrailingCommaInClosureUse
+    * SlevomatCodingStandard.Functions.DisallowTrailingCommaInDeclaration
     * SlevomatCodingStandard.Functions.NamedArgumentSpacing
+    * SlevomatCodingStandard.Functions.RequireArrowFunction
     * SlevomatCodingStandard.Functions.RequireMultiLineCall
     * SlevomatCodingStandard.Functions.RequireTrailingCommaInCall
     * SlevomatCodingStandard.Functions.RequireTrailingCommaInClosureUse
@@ -248,8 +264,11 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.Operators.SpreadOperatorSpacing
     * SlevomatCodingStandard.PHP.ForbiddenClasses
     * SlevomatCodingStandard.PHP.OptimizedFunctionsWithoutUnpacking
+    * SlevomatCodingStandard.PHP.ReferenceSpacing
     * SlevomatCodingStandard.PHP.RequireExplicitAssertion
+    * SlevomatCodingStandard.PHP.RequireNowdoc
     * SlevomatCodingStandard.PHP.ShortList
+    * SlevomatCodingStandard.PHP.TypeCast
     * SlevomatCodingStandard.PHP.UselessParentheses
     * SlevomatCodingStandard.PHP.UselessSemicolon
     * SlevomatCodingStandard.Strings.DisallowVariableParsing
@@ -270,7 +289,8 @@ Below you can find only names of the rules:
     * SlevomatCodingStandard.Variables.UnusedVariable
     * SlevomatCodingStandard.Variables.UselessVariable
     * SlevomatCodingStandard.Whitespaces.DuplicateSpaces
-    * Squiz.Classes.ClassDeclaration
+    * Squiz.Arrays.ArrayBracketSpacing
+    * Squiz.Arrays.ArrayDeclaration
     * Squiz.Classes.LowercaseClassKeywords
     * Squiz.Commenting.DocCommentAlignment
     * Squiz.Commenting.PostStatementComment
@@ -279,6 +299,7 @@ Below you can find only names of the rules:
     * Squiz.Strings.ConcatenationSpacing
     * Squiz.Strings.DoubleQuoteUsage.NotRequired
     * Squiz.WhiteSpace.ControlStructureSpacing
+    * Squiz.WhiteSpace.ObjectOperatorSpacing
     * Squiz.WhiteSpace.OperatorSpacing
 
 
